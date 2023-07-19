@@ -1,0 +1,13 @@
+.delete__btns {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete__btns button {
+    width: 100%;
+}
+.delete__btns button:not(:last-child) {
+    margin-right: 15px;
+}

@@ -1,0 +1,24 @@
+.todolist-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.todolist-box .todolist__btns {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todolist__btn {
+    width: 80%;
+}
+.todolist__btn:not(:last-child) {
+    margin-right: 15px;
+}
+.todolist__btn .btn {
+    width: 100%;
+}

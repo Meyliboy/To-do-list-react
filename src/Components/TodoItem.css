@@ -1,0 +1,59 @@
+.todoitem-box {
+    width: 100%;
+    transition: all 1s;
+}
+ul {
+    width: 100%;
+    margin-top: 15px;
+    list-style-type: none;
+}   
+li {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid #827f7f7b;
+    border-radius: 3px;
+    /* color: #fff; */
+}
+li input {
+    height: 100%;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border: none;
+    user-select: none;
+    font-size: 1.2rem;
+    cursor: default;
+} 
+.complete {
+    color: #D71313;
+    text-decoration: line-through;
+    text-decoration-color: #D71313;
+    text-decoration-skip: 2rem ;
+}
+
+li .fa {
+    font-size: 1.2rem;
+    margin: 0 5px;
+    cursor: pointer;
+}
+li .fa:hover {
+    transform: scale(1.05);
+}
+li .fa-square-o {
+    color: #141514;
+}
+li .fa-check-square-o {
+    color: #13911b;
+}
+li .fa-pencil {
+    color: #fcba03;
+}
+li .fa-trash {
+    color: #fc0b03;
+}

@@ -1,0 +1,40 @@
+.todoinput-box {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #827f7f7b;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.todoinput-box .mr {
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    user-select: none;
+    cursor: default;
+}
+.fa-book {
+    font-size: 1.5rem;
+}
+.todoinput-box .input {
+    width: 100%;
+    border-top-left-radius: 0 !important;
+}
+
+.icon {
+    color: #fff;
+}
+.todoinput-box .w100 {
+    margin-top: 15px;
+    width: 100%;
+}
+.todoinput-box input[type='text'],
+.todoinput-box input[type='text']:focus {
+    background: transparent;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+
+}

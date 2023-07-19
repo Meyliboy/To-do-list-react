@@ -1,0 +1,19 @@
+.footer {
+  height: 25px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #243738;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7b7f83;
+  user-select: none;
+}
+.footer img {
+  margin: 0 5px;
+}.footer__react-title {
+  color: #4287f5;
+}

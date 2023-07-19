@@ -13,7 +13,8 @@ const App = () => {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState(initialState );
   const [editTodo, setEditTodo] = useState(null);
-  const [items, setItems] = useState([])
+  // const [items, setItems] = useState([])
+  // Git test
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));

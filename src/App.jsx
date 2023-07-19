@@ -24,13 +24,13 @@ const App = () => {
     let items = []
     if (string === "all") {
       items = todos;
-      console.log(items);
+      // console.log(items);
     } else if (string === "done") {
       items = todos.filter(item => item.completed === true)
-      console.log(items);
+      // console.log(items);
     } else if (string === "todo") {
       items = todos.filter((item) => item.completed !== true)
-      console.log(items);
+      // console.log(items);
     }
 	};
   
